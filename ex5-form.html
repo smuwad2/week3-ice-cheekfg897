@@ -13,27 +13,27 @@
     <div class="container mt-5">
         <form>
             <div class="row g-3">
-                <div>
-                    <label for="fullName">Full Name</label>
-                    <input type="text" id="fullName">
+                <div class="col-4">
+                    <label for="fullName" class="form-label">Full Name</label>
+                    <input type="text" id="fullName" class="form-control">
                 </div>
 
                 <!-- Email -->
-                <div>
-                    <label for="email">Email address</label>
-                    <input type="email" id="email">
+                <div class="col-4">
+                    <label for="email" class="form-label">Email address</label>
+                    <input type="email" id="email" class="form-control">
                 </div>
 
                 <!-- Gender -->
-                <div>
-                    <label>Gender</label>
-                    <div>
-                        <input type="radio" name="gender" id="male" value="male">
-                        <label for="male">Male</label>
+                <div class="col-4 mb-3">
+                    <label class="form-label d-block">Gender</label>
+                    <div class="form-check d-inline-block me-3">
+                        <input class="form-check-input" type="radio" name="gender" id="male" value="male">
+                        <label class="form-check-label" for="male" class="from-label">Male</label>
                     </div>
-                    <div>
-                        <input type="radio" name="gender" id="female" value="female">
-                        <label for="female">Female</label>
+                    <div class="form-check d-inline-block">
+                        <input class="form-check-input" type="radio" name="gender" id="female" value="female">
+                        <label class="form-check-label" for="female" class="form-label">Female</label>
                     </div>
                 </div>
 
